@@ -1,4 +1,4 @@
-# Stemma Host FeatherWing
+# UNTESTED: Stemma Host FeatherWing
 
 ### _A Stemma UART/I2C FeatherWing interface for use with a host MCU Feather board._
 
