@@ -11,9 +11,9 @@
 
   (page USLetter)
   (title_block
-    (title StemmaPower_WingPack)
+    (title Stemma_Host_FeatherWing)
     (date 2019-11-26)
-    (rev v02)
+    (rev v01)
     (company "Cedar Grove Studios")
   )
 
@@ -1199,6 +1199,7 @@
   (module Adafruit:Cedar_Grove_logo_lighted (layer F.Cu) (tedit 5DAB7692) (tstamp 5DDDB377)
     (at 122.428 90.424)
     (path /5E41E2F6)
+    (attr smd)
     (fp_text reference D1 (at 0 3.81) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
