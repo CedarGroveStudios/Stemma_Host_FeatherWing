@@ -8,7 +8,7 @@ The Stemma Host FeatherWing is a single Stemma or StemmaQT interface, compatible
 
 For use ONLY with Feather MCU boards that provide at least a 3.3-volt power source. USB or battery power is needed for Stemma ~5-volt signals.
 
-OSH Park project: (link TBD)
+OSH Park project: https://oshpark.com/shared_projects/eTakiJpM
 
 ![Image of Module](https://github.com/CedarGroveStudios/Stemma_Host_FeatherWing/blob/master/photos/Stemma_Host_FeatherWing_glam_wide.png)
 
