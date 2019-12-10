@@ -6,8 +6,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Stemma_Host_FeatherWing"
-Date "2019-11-25"
-Rev "v01"
+Date "2019-12-09"
+Rev "v02"
 Comp "Cedar Grove Studios"
 Comment1 ""
 Comment2 ""
@@ -428,8 +428,8 @@ L Adafruit:BSS138DW-Y-F_ALT U1
 U 1 1 5DF8E7C6
 P 4550 2925
 F 0 "U1" H 4550 2303 50  0000 C CNN
-F 1 "BSS138DW-Y-F_ALT" H 4550 2212 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 4550 2925 50  0001 C CNN
+F 1 "BSS138DW/BK" H 4550 2212 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 4550 2925 50  0001 C CNN
 F 3 "" H 4550 2925 50  0001 C CNN
 	1    4550 2925
 	-1   0    0    -1  
