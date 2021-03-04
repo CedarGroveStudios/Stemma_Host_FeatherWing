@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Stemma_Host_FeatherWing-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Stemma_Host_FeatherWing"
 Date "2019-12-09"
-Rev "v02"
+Rev "v03"
 Comp "Cedar Grove Studios"
 Comment1 ""
 Comment2 ""
@@ -57,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5350 4075 5350
 $Comp
-L conn:CONN_01X04 J1
+L Stemma_Host_FeatherWing-rescue:CONN_01X04-conn J1
 U 1 1 5C95ED81
 P 6750 2325
 F 0 "J1" H 6725 2675 50  0000 L CNN
@@ -166,7 +165,7 @@ TX
 Text Label 3600 6350 0    50   ~ 0
 D4
 $Comp
-L device:R_Pack04 RN1
+L Stemma_Host_FeatherWing-rescue:R_Pack04-device RN1
 U 1 1 5DDA14FC
 P 5150 1625
 F 0 "RN1" H 5338 1671 50  0000 L CNN
@@ -183,7 +182,7 @@ SCL_RX
 Text Label 3075 3175 0    50   ~ 0
 SDA_TX
 $Comp
-L conn:GS3 JMP1
+L Stemma_Host_FeatherWing-rescue:GS3-conn JMP1
 U 1 1 5DDFBE5A
 P 2800 2650
 F 0 "JMP1" H 2800 2950 50  0000 C CNN
@@ -194,7 +193,7 @@ F 3 "" H 2800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:GS3 JMP2
+L Stemma_Host_FeatherWing-rescue:GS3-conn JMP2
 U 1 1 5DDFBEE9
 P 2800 3175
 F 0 "JMP2" H 2800 2900 50  0000 C CNN
@@ -217,7 +216,7 @@ SDA
 Wire Wire Line
 	2650 3275 2250 3275
 $Comp
-L device:LED_Small D1
+L Stemma_Host_FeatherWing-rescue:LED_Small-device D1
 U 1 1 5E41E2F6
 P 7925 5900
 F 0 "D1" V 7971 5832 50  0000 R CNN
@@ -228,7 +227,7 @@ F 3 "" V 7925 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R1
+L Stemma_Host_FeatherWing-rescue:R_Small-device R1
 U 1 1 5E41E3CE
 P 7925 5600
 F 0 "R1" H 7984 5646 50  0000 L CNN
@@ -279,7 +278,7 @@ Wire Wire Line
 Text Label 7550 900  0    50   ~ 0
 +V
 $Comp
-L Adafruit:Feather_M4_Express M1
+L Stemma_Host_FeatherWing-rescue:Feather_M4_Express-Adafruit M1
 U 1 1 5DDD766A
 P 4625 5650
 F 0 "M1" H 4625 6623 50  0000 C CNN
@@ -290,29 +289,18 @@ F 3 "" H 4625 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 J3
-U 1 1 5DEAC17A
-P 6750 3225
-F 0 "J3" H 6725 3575 50  0000 L CNN
-F 1 "STEMMA-QT" H 6700 3475 50  0000 L CNN
-F 2 "Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled" H 6750 3225 50  0001 C CNN
-F 3 "" H 6750 3225 50  0001 C CNN
-	1    6750 3225
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_01X04 J4
+L Stemma_Host_FeatherWing-rescue:CONN_01X04-conn J4
 U 1 1 5DEAC218
 P 7950 3225
-F 0 "J4" H 7925 3575 50  0000 L CNN
-F 1 "STEMMA-QT" H 7900 3475 50  0000 L CNN
+F 0 "J4" H 7900 2900 50  0000 L CNN
+F 1 "STEMMA-QT" H 7900 2975 50  0000 L CNN
 F 2 "Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled" H 7950 3225 50  0001 C CNN
 F 3 "" H 7950 3225 50  0001 C CNN
 	1    7950 3225
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X04 J2
+L Stemma_Host_FeatherWing-rescue:CONN_01X04-conn J2
 U 1 1 5DEAE527
 P 7950 2325
 F 0 "J2" H 7925 2675 50  0000 L CNN
@@ -424,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 900  4700 1000
 $Comp
-L Adafruit:BSS138DW-Y-F_ALT U1
+L Stemma_Host_FeatherWing-rescue:BSS138DW-Y-F_ALT-Adafruit U1
 U 1 1 5DF8E7C6
 P 4550 2925
 F 0 "U1" H 4550 2303 50  0000 C CNN
@@ -521,7 +509,7 @@ F 3 "" H 7525 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1_Small C1
+L Stemma_Host_FeatherWing-rescue:CP1_Small-device C1
 U 1 1 5E05AEC7
 P 7525 5900
 F 0 "C1" H 7350 5925 50  0000 L CNN
@@ -2009,7 +1997,7 @@ B5 27 C6 DB 70 7F 7C 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L device:D_Schottky_Small D2
+L Stemma_Host_FeatherWing-rescue:D_Schottky_Small-device D2
 U 1 1 5DDE695E
 P 7125 5250
 F 0 "D2" H 7125 5045 50  0000 C CNN
@@ -2020,7 +2008,7 @@ F 3 "" V 7125 5250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:D_Schottky_Small D3
+L Stemma_Host_FeatherWing-rescue:D_Schottky_Small-device D3
 U 1 1 5DDE6AAE
 P 7125 5450
 F 0 "D3" H 7125 5650 50  0000 C CNN
@@ -2057,7 +2045,7 @@ F 3 "" H 2600 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW1
+L Stemma_Host_FeatherWing-rescue:SW_Push-switches SW1
 U 1 1 5DE5DC6A
 P 2925 4850
 F 0 "SW1" H 2925 5135 50  0000 C CNN
@@ -2079,7 +2067,7 @@ Wire Wire Line
 Wire Wire Line
 	5175 5450 7025 5450
 $Comp
-L conn:GS3 JMP3
+L Stemma_Host_FeatherWing-rescue:GS3-conn JMP3
 U 1 1 5DDE749D
 P 7100 1225
 F 0 "JMP3" H 7125 1500 50  0000 C CNN
@@ -2125,4 +2113,15 @@ Text Notes 7375 1300 0    50   ~ 0
 ~~5V
 Text Notes 7375 1525 0    50   ~ 0
 ~~5V default jumper
+$Comp
+L Stemma_Host_FeatherWing-rescue:CONN_01X04-conn J3
+U 1 1 5DEAC17A
+P 6750 3225
+F 0 "J3" H 6700 2900 50  0000 L CNN
+F 1 "STEMMA-QT" H 6700 2975 50  0000 L CNN
+F 2 "Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled" H 6750 3225 50  0001 C CNN
+F 3 "" H 6750 3225 50  0001 C CNN
+	1    6750 3225
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
